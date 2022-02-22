@@ -1,9 +1,6 @@
 const express = require("express");
 const app = express();
 
-app.use(expres.json());
-
-
 app.get("/", (req, res) => {
     res.send("Hey hey");
 });
